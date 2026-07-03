@@ -73,7 +73,7 @@ Cilent Website/
 ## 访问规则详解
 
 ### 规则 1：index.html 自动映射
-当访问的文件夹中只有一个 `index.html` 文件时，可以省略文件名。
+当访问的文件夹中有一个 `index.html` 文件时且要请求此页面时，可以省略```index.html```，但如果要请求的不是```index.html```，则必须加上对应的文件名。
 
 **示例：**
 - 文件路径：`index/hosting/help/index.html`
